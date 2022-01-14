@@ -3,7 +3,9 @@ import { IMovie } from "../interfaces/IMovie";
 import MoviesList from "../components/MoviesList";
 
 interface IProps {
-  movies: IMovie[];
+  movies: {
+    Search: IMovie[];
+  };
   hasError: boolean;
 }
 
